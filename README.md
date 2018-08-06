@@ -6,4 +6,4 @@ Collection of python examples to complete to get use to python programming and u
 
 Introduction will get you up and running writing your first lines of code.
 
-[Let's get started](#INTRODUCTION.md)
+[Let's get started](INTRODUCTION.md)
