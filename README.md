@@ -1,5 +1,5 @@
 # gulis-python-examples
-Collection of python examples to complete to get use to python programming and understanding the program flow.
+Collection of python examples and exercises to complete to get use to python programming and understanding the program flow.
 
 
 ## Introduction
