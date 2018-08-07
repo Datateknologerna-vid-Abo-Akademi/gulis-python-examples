@@ -2,6 +2,14 @@
 
 After successfully installing python to your computer hello world is always a great way to check if everything installed correctly.
 
+# TODO: SPLIT INTO SECTIONS!
+* BASIC
+* IF/ELSE statements
+* LOOPS
+* STRING manipulation
+
+For now this is just a list of excercises!!!
+
 ## 1. Hello World!
 Output `hello world!` in console.  
 
@@ -148,6 +156,135 @@ name
 ```
 
 Tips: make a list of words, then use sort().
- 
+
+## 14. Loop patterns 1
+Reconstruct the following pattern:
+```bash
+1
+22
+333
+4444
+55555
+666666
+7777777
+88888888
+999999999
+```
+
+## 15. Loop patterns 2
+Reconstruct the following pattern, using a nested for loop.
+```bash
+* 
+* * 
+* * * 
+* * * * 
+* * * * * 
+* * * * 
+* * * 
+* * 
+*
+```
+## 16. Count even and odd numbers
+Input a number is Integers, separated with commas (,)
+Output number of even numbers and numbers of odd numbers.
+
+Example output
+```python
+numbers = (1, 2, 3, 4, 5, 6, 7, 8, 9) #a tuple of numbers
+
+Output
+Numbers of even numbers: 4
+Numbers of odd numbers: 5
+```
+
+## 17. Simple guessing game with random number
+Generate a random number with the help of the `random` library
+Have the user guess the number, continue to guess untill it's right.
+
+Tips: use a while loop.
+
+## 18. password validation
+Write a Python program to check the validity of a password (input from users).
+Validation :
+At least 1 letter between [a-z] and 1 letter between [A-Z].
+At least 1 number between [0-9].
+At least 1 character from [!$#@].
+Minimum length 6 characters.
+Maximum length 16 characters.
+```bash
+Input
+D4T3@abo!
+Output
+Valid password
+```
+
+Tips: use the egular expression library `re` [google it ;)](https://docs.python.org/3/library/re.html).
+
+## 19a. Write a Python program to find common items from two lists.
+Example solution
+```python
+input
+car1 = "Volvo", "BMW", "SAAB", "Tesla"
+car2 = "Lada", "Tesla", "Volvo", "Renault"
+output
+{'Volvo', 'Tesla'}
+```
+
+## 19b. Write a Python program to get the difference between the two lists
+Example solution
+```python
+input
+car1 = "Volvo", "BMW", "SAAB", "Tesla"
+car2 = "Tesla", "Volvo"
+output
+{'BMW', 'SAAB'}
+```
+
+## 20. Write a Python program to find the largest number in list.
+Example output
+```bash
+largest_num_in_list([6, 12, -3, 0, 2, -12])
+return 12
+```
+## 21. Write a program to generate all permutations of a list.
+This will become very hand later in other courses ;)
+
+example output
+```bash
+input [1,2,3]
+Output [(1, 2, 3), (1, 3, 2), (2, 1, 3), (2, 3, 1), (3, 1, 2), (3, 2, 1)]
+```
+
+Tips: `import itertools`
+
+## 22. Remove duplicates in list.
+Example output
+```bash
+Input = [10,20,30,20,10,50,60,40,80,50,40]
+Output [10, 20, 30, 50, 60, 40, 80]
+```
+
+## 23. Caesar encryption solution
+N.B: In cryptography, a Caesar cipher, also known as Caesar's cipher, the shift cipher, Caesar's code or Caesar shift, is one of the simplest and most widely known encryption techniques.
+It is a type of substitution cipher in which each letter in the plaintext is replaced by a letter some fixed number of positions down the alphabet.
+For example, with a left shift of 3, D would be replaced by A, E would become B, and so on.
+The method is named after Julius Caesar, who used it in his private correspondence.
+
+Example output
+```bash
+plaintext:  defend the east wall of the castle
+ciphertext: efgfoe uif fbtu xbmm pg uif dbtumf
+```
+
+# Write a program to concatenate following dictionaries to create a new one
+Example output
+```bash
+Input
+dic1={1:10, 2:20}
+dic2={3:30, 4:40}
+dic3={5:50,6:60}
+Output
+{1: 10, 2: 20, 3: 30, 4: 40, 5: 50, 6: 60}
+```
 
 ## More will be added later! :) 
