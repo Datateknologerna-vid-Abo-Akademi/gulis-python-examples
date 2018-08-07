@@ -276,7 +276,7 @@ plaintext:  defend the east wall of the castle
 ciphertext: efgfoe uif fbtu xbmm pg uif dbtumf
 ```
 
-# Write a program to concatenate following dictionaries to create a new one
+## 24. Write a program to concatenate following dictionaries to create a new one
 Example output
 ```bash
 Input
@@ -285,6 +285,13 @@ dic2={3:30, 4:40}
 dic3={5:50,6:60}
 Output
 {1: 10, 2: 20, 3: 30, 4: 40, 5: 50, 6: 60}
+```
+
+## 25. Sum all the items in a dictionary
+Example output
+```bash
+Input {'data1':100,'data2':-54,'data3':247}
+Output 293
 ```
 
 ## More will be added later! :) 
