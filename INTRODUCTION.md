@@ -264,7 +264,7 @@ Input = [10,20,30,20,10,50,60,40,80,50,40]
 Output [10, 20, 30, 50, 60, 40, 80]
 ```
 
-## 23. Caesar encryption solution
+## 23. Caesar encryption solution.
 N.B: In cryptography, a Caesar cipher, also known as Caesar's cipher, the shift cipher, Caesar's code or Caesar shift, is one of the simplest and most widely known encryption techniques.
 It is a type of substitution cipher in which each letter in the plaintext is replaced by a letter some fixed number of positions down the alphabet.
 For example, with a left shift of 3, D would be replaced by A, E would become B, and so on.
@@ -276,7 +276,7 @@ plaintext:  defend the east wall of the castle
 ciphertext: efgfoe uif fbtu xbmm pg uif dbtumf
 ```
 
-## 24. Write a program to concatenate following dictionaries to create a new one
+## 24. Write a program to concatenate following dictionaries to create a new one.
 Example output
 ```bash
 Input
@@ -287,11 +287,26 @@ Output
 {1: 10, 2: 20, 3: 30, 4: 40, 5: 50, 6: 60}
 ```
 
-## 25. Sum all the items in a dictionary
+## 25. Sum all the items in a dictionary.
 Example output
 ```bash
 Input {'data1':100,'data2':-54,'data3':247}
 Output 293
 ```
+
+## 26. Convert roman numbers to a integer.
+Example output
+```bash
+input:
+'MMMCMLXXXVI'
+'MMMM'
+'C'
+output:
+3986                                                                                                          
+4000                                                                                                          
+100
+```
+Tips: define a dictionary of all roman numbers to it's equivalent integer.
+`output += rom_dict[input[i]] - 2 * rom_dict[input[i - 1]]`
 
 ## More will be added later! :) 
