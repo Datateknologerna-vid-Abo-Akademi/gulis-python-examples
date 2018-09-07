@@ -7,15 +7,27 @@ After successfully installing python to your computer hello world is always a gr
 * IF/ELSE statements
 * LOOPS
 * STRING manipulation
+* libraries
 
+## Table of contents
+
+1. [Basic - introduction](#basic)
+2. [if/else statements](#statements)
+3. [string maniuplation](#strings)
+4. [Loops](#loops)
+5. [Using libraries](#libraries)
 For now this is just a list of excercises!!!
 
+# Basic 
+
 ## 1. Hello World!
+
 Output `hello world!` in console.  
 
 Tips: if you really need help, google [Python output](http://lmgtfy.com/?q=Python+output)
 
 ## 2. Add two numbers.
+
 Output `a + b = c`
 
 Tips: use input to assign values to `a` and `b` then output the sum of them.
@@ -63,6 +75,8 @@ Output ´1920 is a leap year´
 
 Tips: Leap year is every 4th year, years ending with 00 is not a leap year, except every 400 year.
 
+# libraries
+
 ## 9. Print calendar month
 Sounds more challanging right?  
 Output example
@@ -92,6 +106,7 @@ def recursive(a):
     else:
         print(a)
         recursive(a - 1)
+````
 
 # Print 10..1 with help of recursion
 recursive(10)
